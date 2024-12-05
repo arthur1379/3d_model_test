@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>3D Model Test</title>
+  <style>
+    body {
+      margin: 0;
+      opacity: 0; /* 初始透明度設為 0 */
+      transition: opacity 2s ease-in-out; /* 定義過渡效果 */
+      background-color: rgb(180, 180, 180);
+    }
+  </style>
+
+</head>
+
+<body>
+  <script type="importmap">
+    {
+      "imports": {
+        "three": "https://cdn.jsdelivr.net/npm/three@0.169.0/build/three.module.js",
+        "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.169.0/examples/jsm/"
+      }
+    }
+  </script>
+
+  
+
+  <script src="main.js" type="module"></script>
+</body>
+
+</html>
